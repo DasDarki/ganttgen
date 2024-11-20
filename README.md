@@ -1,5 +1,9 @@
-# Vue 3 + TypeScript + Vite
+# GanttGen
+Simple tool which generates a Gantt Chart based on a simple text file:
+```
+Block 1: dd.MM.yyy-dd.MM.yyyy
+Block 2: ...
+Block N: ...
+```
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Run in browser. Press **O** to open txt file. Press **P** to export as PNG.
